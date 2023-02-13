@@ -1,6 +1,7 @@
 import BananaScene from "./BananaScene";
-import { PorscheScene } from "./PorscheScene";
+import HalloweenCatScene from "./HalloweenCatScene";
+import PorscheScene from "./PorscheScene";
 
 export default function App() {
-  return <PorscheScene />;
+  return <HalloweenCatScene />;
 }

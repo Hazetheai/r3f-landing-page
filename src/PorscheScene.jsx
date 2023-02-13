@@ -14,7 +14,7 @@ import { LayerMaterial, Color, Depth } from "lamina";
 
 // Shows how to build declarative environment that are live and animated.
 
-export const PorscheScene = () => {
+const PorscheScene = () => {
   const [degraded, degrade] = useState(false);
 
   return (
@@ -188,3 +188,4 @@ function Softboxes({ positions = [2, 0, 2, 0, 2, 0, 2, 0] }) {
     </>
   );
 }
+export default PorscheScene;
